@@ -29,6 +29,17 @@ body {
   transform: scale(1.1);
 }
 
+.photo {
+  padding: 50px;
+  transition: transform 0.5s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.photo:hover {
+  transform: scale(1.5);
+}
+
 .nasa-photo {
   display: flex;
   padding: 40px;
